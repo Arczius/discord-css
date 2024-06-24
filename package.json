@@ -1,0 +1,18 @@
+{
+  "name": "discord-css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "watch": "sass --watch lib/include.scss:build/theme.css",
+    "build": "sass lib/include.scss:build/theme.css --style compressed"
+  },
+  "author": "Arczius",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.77.6"
+  }
+}
